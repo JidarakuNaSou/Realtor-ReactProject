@@ -1,0 +1,137 @@
+.infoproperty {
+  height: 450px;
+  .description {
+    height: 300px;
+    color: #243762;
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+  }
+}
+
+textarea {
+  margin-top: 50px;
+  outline: none;
+  color: #243762;
+  border-radius: 9px;
+  font-weight: bold;
+  border-color: af9cda;
+}
+
+.infoarea {
+  margin-left: 50px;
+  background-color: #fff;
+  border-width: 2px;
+  border-style: bold;
+  border-color: #af9cda;
+}
+.Property {
+  .caruselphoto {
+    height: 400px;
+  }
+  .statusdropdown {
+    margin-right: 50px;
+    button {
+      margin: 0;
+      font-size: medium;
+      background-color: #af9cda;
+      color: white;
+      border-radius: 0;
+      padding: 4px 2px;
+      border-radius: 10px;
+    }
+  }
+  .status_btn {
+    margin-right: 50px;
+  }
+  .title-street {
+    margin-left: 25px;
+  }
+  .countapart {
+    color: #243762;
+    font-size: 30px;
+    margin-left: 20px;
+    h6 {
+      margin-bottom: 0;
+    }
+  }
+  .space {
+    color: #243762;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+  .price {
+    margin-left: 0px;
+  }
+  .user_info {
+    color: #243762;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  h6 {
+    font-size: 20px;
+  }
+  h3 {
+    color: #af9cda;
+  }
+  h1 {
+    color: #af9cda;
+    margin-bottom: 0;
+  }
+  .carousel-indicators {
+    margin-top: 0;
+    top: -20%;
+  }
+  .slide {
+    display: flex;
+    align-items: center;
+    height: 400px;
+  }
+  .user {
+    display: flex;
+    margin-left: 5px;
+    margin-right: 0;
+    h2 {
+      margin-bottom: 0;
+    }
+    img {
+      height: 70px;
+      width: 70px;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+  .video,
+  .model3D {
+    height: 300px;
+  }
+  .sketchfab-embed-wrapper {
+    margin: auto;
+  }
+  .model3D {
+    display: flex;
+    justify-self: center;
+    align-items: center;
+  }
+
+  .carousel-item {
+    img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+  .carousel-control-next-icon {
+    content: url("http://localhost:3000/img/Group6.png");
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+  .carousel-control-prev-icon {
+    content: url("http://localhost:3000/img/Group7.png");
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+  }
+}

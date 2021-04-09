@@ -1,0 +1,56 @@
+.toggleruser {
+  .dropdown-toggle::after {
+    color: #af9cda;
+  }
+  .user_avatar {
+    margin-right: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .dropdown-item {
+    font-family: "Roboto";
+    font-weight: bold;
+    text-align: center;
+    color: #243762;
+    padding: 5px 30px;
+  }
+  .exit-btn {
+    color: #d61c1c;
+    a:hover {
+      background-color: rgba(175, 156, 218, 1);
+      border-radius: 0;
+      color: #fff;
+    }
+  }
+  .dropdown-menu {
+    a,
+    a:hover,
+    a:active,
+    a:focus {
+      text-decoration: none;
+      color: #243762;
+    }
+    border: none;
+    margin-top: 54px;
+    button:focus {
+      background-color: #fff;
+      color: #243762;
+    }
+    button:active {
+      background-color: #fff;
+      color: #243762;
+    }
+    button:hover {
+      background-color: rgba(175, 156, 218, 1);
+      border-radius: 0;
+      color: #fff;
+    }
+    img_user {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+}

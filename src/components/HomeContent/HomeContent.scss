@@ -1,0 +1,50 @@
+.homecontent{
+  margin-top: 75px;
+}
+
+ul,
+li {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.title {
+  &__btn {
+    color: #fff;
+    background-color: #af9cda;
+    padding: 5px 18px;
+    margin-top: 40px;
+  }
+  h3 {
+    font-family: "Roboto-Light";
+    color: #243762;
+    margin-bottom: 12px;
+  }
+
+  h1,h6
+  {
+    font-family: "Roboto";
+    color: #243762;
+  }
+  h6 {  
+    font-size: 12px;
+  }
+}
+.carousel-indicators {
+  position: relative;
+  margin-top: 150px;
+  li {
+    border: 2px solid rgba(36, 55, 98, 1);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 1;
+  }
+  .active {
+    background-color: #af9cda;
+    border: 0px none;
+    height: 14px;
+    width: 14px;
+  }
+}

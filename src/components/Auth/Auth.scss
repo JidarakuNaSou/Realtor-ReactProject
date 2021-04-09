@@ -1,0 +1,55 @@
+.modal-backdrop {
+  background: rgba(255, 255, 255, 0);
+}
+
+.modal-body__item {
+  width: 350px;
+  margin: auto auto 20px auto;
+  border: 2px solid;
+  border-radius: 9px;
+  border-color: #af9cda;
+}
+.modal-content {
+  border-radius: 20px;
+  border: none;
+}
+.modal-header {
+  margin: auto;
+  border-bottom: none;
+  color: #af9cda;
+}
+.modal-footer {
+  margin: auto;
+  border-top: none;
+}
+.btn-modal {
+  border-radius: 9px;
+  color: #fff;
+  background-color: #af9cda;
+  &:active {
+    color: #243762;
+  }
+  &:focus {
+    color: #243762;
+  }
+}
+
+.auth {
+  display: none;
+
+  &__active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.errorMessagelog{
+  font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 4px;
+    color: #243762;
+    margin: 0;
+    margin-bottom:8px;
+}

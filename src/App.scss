@@ -1,0 +1,99 @@
+@import "./scss/color";
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+body,
+a {
+  margin: 0;
+  padding: 0;
+}
+button:active,
+button:focus {
+  outline: none;
+  background-color: #fff;
+  border: none;
+}
+
+input::-webkit-input-placeholder {
+  color: #af9cda;
+}
+input::-moz-placeholder {
+  color: #af9cda;
+}
+
+button:active,
+button:hover {
+  color: rgb(36, 55, 98);
+  transition-duration: 0.15s, 0.15s, 0.15s, 0.15s;
+}
+button {
+  background-color: #fff;
+  border-radius: 7px;
+  border: none;
+}
+
+input:active,
+input:focus {
+  outline: none;
+}
+
+.dropdown-menu-center {
+  left: 50% !important;
+  right: auto !important;
+  text-align: center !important;
+  transform: translate(-50%, 0) !important;
+}
+
+textarea {
+  resize: none;
+}
+
+.container-fluid { 
+  width: 1360px !important; 
+}
+
+@import "./scss/fonts";
+@import "./components/Header/Header";
+@import "./components/Overview/Apartments/Apartments";
+@import "./components/HomeContent/HomeContent";
+@import "./components/Header/SignUserToggler/SignUserToggler.scss";
+@import "./components/Auth/Auth.scss";
+@import "./components/Profile/Profile.scss";
+@import "./components/Overview/Property/Property.scss";
+@import "./components/Auth/Registration/Registration.scss";
+@import "./components/InsertProperty/InsertProperty.scss";
+@import "./components/Yuridinfo/Yuridinfo.scss";
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+.social button {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  float: left;
+  background: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15), inset 0 0 50px rgba(0, 0, 0, 0.1);
+  border-radius: 24px;
+  margin: 0 10px 10px 0;
+  padding: 6px;
+  color: #000;
+}
+
+.google-pluse button:hover {
+  background: #dd4b39;
+  color: #fff;
+}
+@media(max-width: 720px){
+  .container{
+  max-width: none;
+  }
+}
+@media(min-width: 768px){
+  .container{
+  max-width: none;
+  }
+}
+@media(max-width:576px){
+  .container{
+  max-width: none;
+  }
+}

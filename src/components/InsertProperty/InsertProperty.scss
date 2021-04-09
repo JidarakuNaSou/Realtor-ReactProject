@@ -1,0 +1,307 @@
+.insert {
+  .addphoto {
+    background-color: #af9cda;
+    height: 20px;
+    width: 20px;
+  }
+}
+.Insertform {
+  margin: 25px 8% 25px 8%;
+
+  .dropdown-menu {
+    margin-top: -8px;
+    margin-left: 10px;
+
+    width: 400px;
+    min-width: 0;
+    border: 1px bold #af9cda;
+    button {
+      text-align: center;
+      margin-right: 0px;
+      margin-bottom: 5px;
+    }
+    
+    .form_radio_btn:nth-child(2n) {
+      margin-right: 0px;
+    }
+  }
+
+  label {
+    margin-top: 7px;
+  }
+  input {
+    border: 2px solid;
+    border-radius: 9px;
+    border-color: #af9cda;
+  }
+  .adress_items {
+    input:not(last-child) {
+      margin-right: 18px;
+    }
+  }
+  .Sap {
+    label {
+      margin: 10px -14px;
+    }
+    label:first-child {
+      margin-right: -20px;
+    }
+  }
+  .SaP_items {
+    input:first-child {
+      margin-right: 80px;
+    }
+  }
+  .m3dbtn {
+    height: 15%;
+    width: 60%;
+  }
+  .videobtn {
+    height: 15%;
+    width: 30%;
+  }
+  button {
+    margin: 0;
+    font-size: medium;
+    background-color: #af9cda;
+    color: white;
+    border-radius: 0;
+    padding: 4px 2px;
+  }
+  .delvideo{
+    position: relative;
+          display: flex;
+          margin: 0;
+          padding: 10px 10px;
+          left: 45%;
+          top: -50%;
+          background-color: rgba(0, 0, 0, 0);
+          background-image: url(/img/Group1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+  }
+  .del3d{
+    position: relative;
+          display: flex;
+          margin: 0;
+          padding: 10px 10px;
+          left: 32.5%;
+          top: -50%;
+          background-color: rgba(0, 0, 0, 0);
+          background-image: url(/img/Group1.png);
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+  }
+  button:not(last-child) {
+    margin-right: 6px;
+  }
+  textarea {
+    border: 2px solid;
+    border-radius: 9px;
+    border-color: #af9cda;
+    margin-bottom: 40px;
+    margin-top: 0;
+  }
+  .upmessage {
+    color: white;
+  }
+  span[data-descr] {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+  }
+  span[data-descr]:hover::after {
+    display: flex;
+    content: attr(data-descr);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border-radius: 49%;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-image: url(/img/load_1.png);
+    background-size: 80px 60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    font-size: 14px;
+    z-index: 1;
+  }
+
+  .mainphoto {
+    background-color: #af9cda;
+    height: 300px;
+    width: 90%;
+  }
+  .mainimage {
+    button {
+      background-color: #af9cda;
+      padding: 5px;
+    }
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+  }
+  .carusel_inner {
+    height: 20px;
+  }
+  .caruselphoto {
+    margin-top: 10px;
+    width: 100%;
+    img {
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      object-position: 50% 50%;
+    }
+    .item {
+      margin-top: 10px;
+      margin-left: 15px;
+      &:first-child {
+        margin-left: 45px;
+      }
+      .delbtn {
+        position: relative;
+        display: flex;
+        margin: 0;
+        padding: 5px 5px;
+        left: 40%;
+        background-color: rgba(0, 0, 0, 0);
+        background-image: url(/img/Group1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        
+      }
+
+      span[data-delete] {
+        display: flex;
+        position: relative;
+        cursor: pointer;
+        height: 5px;
+        width: 5px;
+        
+      }
+      span[data-delete]:hover::after {
+        display: flex;
+        content: attr(data-delete);
+        position: absolute;
+        top: 100%;
+        right:-200%;
+        transform: translate(-50%, -50%);
+
+        border-radius: 50%;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-image: url(/img/Group1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 6px;
+        font-size: 14px;
+        z-index: 1;
+      }
+
+      button {
+        margin: 0;
+        padding: 5px;
+        background-color: #af9cda;
+      }
+    }
+    .updatephoto {
+      margin-top: 20px;
+    }
+    .carousel-control-next-icon {
+      margin-top: 10px;
+      background-color: #af9cda;
+    }
+    .carousel-control-prev-icon {
+      margin-top: 10px;
+      background-color: #af9cda;
+    }
+  }
+}
+
+.headerIP {
+  margin: 25px 8% 25px 8%;
+  color: #af9cda;
+  margin-bottom: 30px;
+  button {
+    border-radius: 0;
+    margin: 0;
+    font-size: medium;
+    background-color: #af9cda;
+    color: white;
+  }
+  font-size: 30px;
+  font-weight: bold;
+}
+.upl3dmodel {
+  height: 300px;
+}
+.uplvideo {
+  height: 300px;
+}
+.sketch {
+  margin: 20px;
+  .item_3D {
+    margin: 0;
+  }
+
+  .modal-body {
+    input {
+      border: 2px solid;
+      border-radius: 9px;
+      border-color: #af9cda;
+      width: 55%;
+    }
+    button {
+      margin-left: 20px;
+      padding: 0px 20px;
+      font-size: medium;
+      background-color: #af9cda;
+      color: white;
+      border-radius: 0;
+    }
+  }
+}
+.form_radio_btn {
+  text-align: center;
+  display: inline-block;
+  margin-right: 10px;
+}
+.form_radio_btn input[type="radio"] {
+  display: none;
+}
+.form_radio_btn label {
+  display: inline-block;
+  cursor: pointer;
+  padding: 0px 15px;
+  line-height: 34px;
+  border: 1px solid #af9cda;
+  background-color: #af9cda;
+  color: #fff;
+  user-select: none;
+}
+
+/* Checked */
+.form_radio_btn input[type="radio"]:checked + label {
+  background: #fff;
+  color: #af9cda;
+  border-color: #af9cda;
+}
+
+/* Hover */
+.form_radio_btn label:hover {
+  color: #666;
+}
+
+/* Disabled */
+.form_radio_btn input[type="radio"]:disabled + label {
+  background: #efefef;
+  color: #666;
+}
